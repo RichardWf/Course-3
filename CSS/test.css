@@ -427,7 +427,7 @@ a {
   bottom: 10px;
 }
 
-@media screen and (min-width: 2014px) {
+@media screen and (min-width: 1024px) {
   .quote {
     font-size: 2rem;
   }
