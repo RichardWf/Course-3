@@ -551,10 +551,30 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 5px;
+  width: 90vw;
+  max-width: 1140px;
+  margin: auto;
+  position: relative;
+  bottom: 30px;
 }
 
 .callout--primary {
   background: var(--color-primary);
+  color: #fff;
+}
+
+.callout__close {
+  color: lightgrey;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: font-size 0.3s;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.callout__close:hover {
+  font-size: 3.1rem;
   color: #fff;
 }
 
